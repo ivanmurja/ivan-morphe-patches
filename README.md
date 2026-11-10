@@ -1,6 +1,6 @@
 # Ivan Morphe Patches
 
-Patch pessoal para o **Yoosee** (`com.yoosee`): remove o anúncio da tela de abertura.
+Patch pessoal para o app de câmera **Yoosee** (`com.yoosee`): remove o anúncio da tela de abertura.
 
 | Patch | O que faz | Testado em |
 |---|---|---|
