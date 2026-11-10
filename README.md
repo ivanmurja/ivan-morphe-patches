@@ -1,3 +1,18 @@
+# Ivan Morphe Patches
+
+Patch pessoal para o **Yoosee** (`com.yoosee`): remove o anúncio da tela de abertura.
+
+| Patch | O que faz | Testado em |
+|---|---|---|
+| Disable splash ad | Pula o anúncio de abertura e vai direto para a lista de câmeras | 6.46.1 |
+
+## Como funciona
+Em `LogoActivityVM.parseStartUpIntent`, o app só carrega o anúncio se o último crash foi há mais de 1 hora.
+O patch troca o `cmp-long` dessa comparação por uma constante `-1`, então o app sempre usa o próprio
+caminho dele que pula o anúncio ("crash less than 1 hour goto next page").
+
+---
+
 # 👋🧩 Morphe Patches template
 
 Template repository for Morphe Patches.
@@ -10,9 +25,9 @@ Patches for apps I like.
 
 ### How to use these patches
 
-Click the button below, or manually add this repo url to Morphe Manager: https://github.com/xyz-user/xyz-patches
+Click the button below, or manually add this repo url to Morphe Manager: https://github.com/ivanmurja/ivan-morphe-patches
 
-<a href="https://morphe.software/add-source?github=xyz-user/xyz-patches">
+<a href="https://morphe.software/add-source?github=ivanmurja/ivan-morphe-patches">
   <img src=".github/assets/add-to-morphe.svg" alt="Add to Morphe" height="48">
 </a>
 
