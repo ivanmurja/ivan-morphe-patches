@@ -1,6 +1,6 @@
 {
-  "created_at": "2026-11-10T16:04:11",
-  "description": "## 1.0.0-dev.1 (2026-11-10)\n\n### ✨ New Features\n\n* Yoosee - remove anuncio de abertura ([11eb32f](https://github.com/ivanmurja/ivan-morphe-patches/commit/11eb32fd59bab86a739f5ea93255bb65a18c07d7))",
+  "created_at": "2026-11-10T16:10:41",
+  "description": "## 1.0.0-dev.1 (2026-11-10)\n\n### ✨ New Features\n\n* Yoosee - remove anuncio de abertura ([11eb32f](https://github.com/ivanmurja/ivan-morphe-patches/commit/11eb32fd59bab86a739f5ea93255bb65a18c07d7))\n\n### 🐛 Bug Fixes\n\n* Yoosee - publica release do patch de anuncio de abertura ([5c27997](https://github.com/ivanmurja/ivan-morphe-patches/commit/5c27997e6f402c168b97f681c93410e322a28799))",
   "download_url": "https://github.com/ivanmurja/ivan-morphe-patches/releases/download/v1.0.0-dev.1/patches-1.0.0-dev.1.mpp",
   "signature_download_url": "",
   "version": "1.0.0-dev.1"
